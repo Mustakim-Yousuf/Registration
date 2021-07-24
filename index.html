@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="UTF-8">
+          <title>Registration Form</title>
+              <link rel="stylesheet" href="css/bootstrap.css">
+              <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+       <div class="container">
+           <div class="row">
+               <div class="col-sm-4">
+                   <hr/>
+                   <form action="demo.html" method="post">
+
+                     <div class="form-group">
+                         <label for="fristName">Frist Name</label>
+                         <input type="text" name="frist_name" id="fristName" class="form-control">
+                     </div>
+
+                     <div class="form-group">
+                          <label for="lastname">Last Name</label>
+                          <input type="text" name="last_name" id="lastname" class="form-control">
+                     </div>
+
+                     <div class="form-group">
+                          <label>Email Address</label>
+                          <input type="email" name="email_address" class="form-control">
+                     </div>
+
+                     <div class="form-group">
+                          <label>Password</label>
+                          <input type="password" name="password" class="form-control">
+                     </div>
+
+                     <div class="form-group">
+                          <label>Phone Number</label>
+                          <input type="number" name="phone_number" class="form-control">
+                     </div>
+
+                     <div class="form-group">
+                          <label>Date Of Birth</label>
+                          <input type="date" name="date_of_birth" class="form-control">
+                     </div>
+
+                     <div class="form-group">
+                          <label><input type="radio" name="gender">Male</label>
+                          <label><input type="radio" name="gender">Female</label>
+                     </div>
+
+
+                     <div class="form-group">
+                          <label>Address</label>
+                          <textarea name="address" class="form-control" rows="5"></textarea>
+                     </div>
+
+                     <div class="form-group">
+                           <label>Distric Nmae</label>
+                           <select name="distric_name" class="form-control">
+                             <option>-----Select Distric Name-----</option>
+                             <option value="dhaka">Dhaka</option>
+                             <option value="chittagong">Chittagong</option>
+                             <option value="comilla">comilla</option>
+                             <option value="barishal">Barishal</option>
+                           </select>
+
+                     <div class="form-group">
+                           <label>Image</label>
+                           <input type="file" name="image" accept="image/*" multiple/>
+                     </div>
+
+                     <div class="form-check">
+                              <label class="form-check-label">
+                                   <input type="checkbox" name="form-cheak-input"/> I agree With All Treams & Conditions
+                              </label>
+                     </div>
+
+
+                     <div class="form-group">
+                           <input type="submit" name="btn" value="submit" class="btn btn-success btn-block"/>
+                     </div>
+                   </form>
+               </div>
+           </div>
+       </div>
+
+
+
+
+
+
+
+
+
+      <script src="js/bootstrap.js"></script>
+  </body>
+</html>
